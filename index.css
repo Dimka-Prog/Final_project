@@ -1,0 +1,61 @@
+#VK {color: blue}
+#VK_photo {
+    border: 3px solid #1DD9F6;
+    float: left;
+    width: 200px;
+    height: 300px;
+}
+#MainText em{font-size: 22px;}
+#Heading {
+    margin-top: 65px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+#Hobbies{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.UL{
+    font-size: 22px;
+    font-style: oblique;
+}
+#DropMenu{text-align: center;}
+
+nav {
+    margin: 100px 0;
+    background-color: #F6F3D5;
+}
+nav ul {
+    padding:0;
+    list-style: none;
+    position: relative;
+    margin-right: 60px;
+}
+nav ul li {
+    display:inline-block;
+    padding: 5px;
+    color: #C07F2F;
+    font-size: 21px;
+    line-height: 50px;
+}
+nav li:hover {background-color: #98BE85}
+nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #F6F3D5;
+    box-shadow: 10px 5px 5px rgba(0,0,0,0.1);
+    top: 100%;
+}
+nav ul li:hover > ul {display:block}
+nav a {
+    text-decoration: none;
+    color: #C07F2F;
+}
+nav ul ul li {
+    min-width:170px;
+    float:none;
+    display:list-item;
+    border-bottom: 1px solid #9FD364;
+    position: relative;
+}

@@ -1,0 +1,87 @@
+body {background-color: #EDEEF0;}
+table{
+    border-collapse: collapse;
+    width: 610px;
+    margin: 50px auto 40px;
+    table-layout: fixed;
+}
+
+#Mess{
+    height: 60px;
+    background-color: #FAFBFC;
+}
+#Title{
+    height: 60px;
+    background-color: white;
+}
+#Favourites{
+    background-color: #FAFBFC;
+    text-align: center;
+    color: #63A4F0;
+    font-weight: bold;
+}
+#MainText{
+    text-align: right;
+    vertical-align: bottom;
+}
+#MainText textarea{
+    border-style: none;
+    outline: none;
+    resize: none;
+    text-align: right;
+    font-size: 17px;
+    height: 740px;
+    width: 350px;
+}
+
+tr{
+    background-color: white;
+    height: 750px;
+}
+td{
+    height: 60px;
+    border-width: 1px;
+    border-style: ridge;
+}
+
+#Write{
+    width: 450px;
+    height: 40px;
+    border-radius: 7px 7px 7px 7px;
+    border-width: 1px;
+    outline: none;
+    margin-left: 5px;
+}
+#Write,
+#Write::-webkit-input-placeholder{
+    font-size: 17px;
+    line-height: 3;
+}
+#Write[placeholder]{text-overflow: ellipsis;}
+
+#button{
+    width: 135px;
+    height: 40px;
+
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+
+    outline: none;
+    border-width: 1px;
+    margin-right: 5px;
+    background-color: #A7DEE0;
+
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.8);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.8);
+
+}
+#button:active{
+    -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.8);
+}

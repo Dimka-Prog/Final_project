@@ -1,0 +1,27 @@
+body {background-image: url("https://www.pixel-creation.com/wp-content/uploads/free-sky-wallpapers-background-long-wallpapers.jpg");}
+
+caption{
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: aquamarine;
+}
+#table{
+    border-collapse: collapse;
+    width: 500px;
+    margin: 300px auto 40px;
+    table-layout: fixed;
+}
+tr {
+    height: 75px;
+    background-color: #FABE5D;
+}
+td{border: 1px ridge white;}
+
+button{
+    height: 50px;
+    width: 60px;
+    margin-left: 30px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #9dcad3;
+}
