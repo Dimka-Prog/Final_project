@@ -1,5 +1,3 @@
-## Website
-Мой проект: ip - `134.209.240.185`
 ## Content
 1. Главная страница с профилем
 2. Игры: Whack a mole, Pilots Brothers
@@ -15,5 +13,4 @@
 3. lodash `npm i lodash`
 ## Architecture
 /dist - сборочная директория
-
 /src - файлы для сборки webpack
