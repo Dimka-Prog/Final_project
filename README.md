@@ -1,7 +1,7 @@
 ## Content
 1. Главная страница с профилем
 2. Игры: Whack a mole, Pilots Brothers
-3. Не до Messenger
+3. Messenger
 ## Technologies used
 1. `nmp`
 2. `webpack`
