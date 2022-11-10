@@ -13,4 +13,5 @@
 3. lodash `npm i lodash`
 ## Architecture
 /dist - сборочная директория
+
 /src - файлы для сборки webpack
